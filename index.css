@@ -1,0 +1,85 @@
+body{
+    background-color: #0c0c0c;
+}
+table{
+    background-color: #151414;
+    padding: 2%;
+    border-radius: 5px;
+}
+#menu-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#logo-website{
+    width: 40px;
+    border-radius: 50%;
+}
+.title{
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-title{
+    color: #C7C7C7;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    margin-top: 100px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+#navbar ul li {
+    position: relative;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#navbar ul li a{
+    background-color: #151414;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+#navbar ul li ul{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    position: absolute;
+    display: none;
+    margin: 5px;
+}
+#navbar ul li:hover ul{
+    display: block;
+}
+#menu{
+    display: none;
+}
+#navbar ul li ul li{
+    background-color: #151414;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#header{
+    cursor: pointer;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+}
